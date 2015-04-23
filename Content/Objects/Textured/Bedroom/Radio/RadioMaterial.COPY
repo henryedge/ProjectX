@@ -1,0 +1,44 @@
+Begin Object Class=Material Name="RadioMaterial"
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=1.000000
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=65FCD4094F4C335C85A8A9B35A0AC94B
+      Material=Material'RadioMaterial'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=0.200000
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=7A8217FD4B3265BA1DCAC88FA78D1B84
+      Material=Material'RadioMaterial'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.055000,G=0.055000,B=0.055000,A=0.000000)
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=42FB2D1C4B011BEF86F13F963314B7D9
+      Material=Material'RadioMaterial'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_0')
+   Metallic=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_0')
+   Roughness=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_3')
+   EditorX=-96
+   Expressions(0)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_0'
+   Expressions(1)=MaterialExpressionConstant'MaterialExpressionConstant_0'
+   Expressions(2)=MaterialExpressionConstant'MaterialExpressionConstant_3'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=EC683FA94FC6A9267337CEB83E97D033
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=9CC8ECE84895BA39A10FB8B816C21188
+End Object

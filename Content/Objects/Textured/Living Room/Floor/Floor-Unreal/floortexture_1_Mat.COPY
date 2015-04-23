@@ -1,0 +1,95 @@
+Begin Object Class=Material Name="floortexture_1_Mat"
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_10"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_11"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_1"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_6"
+   End Object
+   Begin Object Class=MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_10"
+      ConstMipValue=0
+      Texture=Texture2D'/Game/Materials/FloorNormalMap.FloorNormalMap'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=2E1BBCEB4C7C3416422522A7F70A2BFF
+      Material=Material'floortexture_1_Mat'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_11"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'floortexture_1_Mat:MaterialExpressionTextureCoordinate_1')
+      ConstMipValue=0
+      Texture=Texture2D'/Game/Materials/floor_normalmap2.floor_normalmap2'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=2E1BBCEB4C7C3416422522A7F70A2BFF
+      Material=Material'floortexture_1_Mat'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=0.500000
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=53538D5749BF45556ABBF38C98A46A11
+      Material=Material'floortexture_1_Mat'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      MaterialExpressionEditorX=-498
+      MaterialExpressionEditorY=233
+      MaterialExpressionGuid=53538D5749BF45556ABBF38C98A46A11
+      Material=Material'floortexture_1_Mat'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_1"
+      UTiling=2.000000
+      VTiling=2.000000
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionGuid=C39AA2EB4579737B2586568C9717C605
+      Material=Material'floortexture_1_Mat'
+      bCollapsed=False
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_6"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'floortexture_1_Mat:MaterialExpressionTextureCoordinate_1')
+      Texture=Texture2D'/Game/Materials/floortexture_1.floortexture_1'
+      MaterialExpressionEditorX=-752
+      MaterialExpressionEditorY=-208
+      MaterialExpressionGuid=66CEF3A34644426840AB64A5CED00D89
+      Material=Material'floortexture_1_Mat'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(OutputIndex=4,Mask=1,MaskA=1)
+      Alpha=(Expression=MaterialExpressionTextureSample'floortexture_1_Mat:MaterialExpressionTextureSample_6',OutputIndex=4,Mask=1,MaskA=1)
+      ConstA=0.800000
+      ConstB=0.300000
+      MaterialExpressionEditorX=-448
+      MaterialExpressionGuid=04588ACD4479F920A2DE2AAC998B69DE
+      Material=Material'floortexture_1_Mat'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_6')
+   Metallic=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_2')
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0')
+   Normal=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_11',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   AmbientOcclusion=(OutputIndex=2,Mask=1,MaskG=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_6'
+   Expressions(1)=MaterialExpressionConstant'MaterialExpressionConstant_2'
+   Expressions(2)=MaterialExpressionConstant'MaterialExpressionConstant_3'
+   Expressions(3)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   Expressions(4)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_1'
+   Expressions(5)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_11'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=89836E5D4E9C4F31AC7B5DA0A0966028
+   ReferencedTextureGuids(0)=DC326A1B4E349C83C400BE9DF17F444A
+   ReferencedTextureGuids(1)=1060BB9846BA21B667EB509D16D5A420
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_2'
+   LightingGuid=D08D30A04D5993F663E442B7A54517BA
+End Object

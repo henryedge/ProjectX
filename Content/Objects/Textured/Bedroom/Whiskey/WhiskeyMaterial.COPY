@@ -1,0 +1,161 @@
+Begin Object Class=Material Name="WhiskeyMat"
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_10"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_12"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_13"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_14"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_9"
+   End Object
+   Begin Object Class=MaterialExpressionConstant4Vector Name="MaterialExpressionConstant4Vector_0"
+   End Object
+   Begin Object Class=MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_10"
+      R=0.950000
+      MaterialExpressionEditorX=-560
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=2EBDE2014B40EC8DBB26DBA735A23420
+      Material=Material'WhiskeyMat'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionConstant_12"
+      R=0.850000
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=5F61D5EA457A1DF6BC3DAFBFCABF6883
+      Material=Material'WhiskeyMat'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionConstant_13"
+      R=1.050000
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=5F61D5EA457A1DF6BC3DAFBFCABF6883
+      Material=Material'WhiskeyMat'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionConstant_14"
+      R=1.500000
+      MaterialExpressionEditorX=-1279
+      MaterialExpressionEditorY=262
+      MaterialExpressionGuid=7DC34D554E836422CB5A3596EFE986DC
+      Material=Material'WhiskeyMat'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=0.100000
+      MaterialExpressionEditorX=-336
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=660B2B2E4BB4AE27034D999D93F5F5BC
+      Material=Material'WhiskeyMat'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      R=0.100000
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=660B2B2E4BB4AE27034D999D93F5F5BC
+      Material=Material'WhiskeyMat'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=26.000000
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=0FDFA46C41EB788BA5833AB97BB225BA
+      Material=Material'WhiskeyMat'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionConstant_9"
+      R=2.000000
+      MaterialExpressionEditorX=-752
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=2EBDE2014B40EC8DBB26DBA735A23420
+      Material=Material'WhiskeyMat'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionConstant4Vector_0"
+      Constant=(R=0.105000,G=0.051219,B=0.000000,A=0.996000)
+      MaterialExpressionEditorX=-336
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=6C50FEE94E18ACF0E377F58F0EC1D326
+      Material=Material'WhiskeyMat'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionConstant'WhiskeyMat:MaterialExpressionConstant_13')
+      B=(Expression=MaterialExpressionConstant'WhiskeyMat:MaterialExpressionConstant_10')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'WhiskeyMat:MaterialExpressionMaterialFunctionCall_1')
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=C263AD4D401BB736A94DD3BB5EA115F8
+      Material=Material'WhiskeyMat'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionConstant'WhiskeyMat:MaterialExpressionConstant_12')
+      B=(Expression=MaterialExpressionConstant'WhiskeyMat:MaterialExpressionConstant_9')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'WhiskeyMat:MaterialExpressionMaterialFunctionCall_1')
+      MaterialExpressionEditorX=-528
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=A427C2854B580BE7187D6B8D20E8536A
+      Material=Material'WhiskeyMat'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Fresnel.Fresnel'
+      FunctionInputs(0)=(ExpressionInputId=35BEF4AB41753D388A755683266190FC,Input=(OutputIndex=-1,InputName="Normal Vector"))
+      FunctionInputs(1)=(ExpressionInputId=602CF93F4D5862AE7D44B9AFAE6928D1,Input=(OutputIndex=-1,InputName="Camera Vector"))
+      FunctionInputs(2)=(ExpressionInputId=C1DDB8394761ECBA18AAFA9FC8B6FDF4,Input=(OutputIndex=-1,InputName="Invert Fresnel"))
+      FunctionInputs(3)=(ExpressionInputId=D1BB60474A01A2C1FF76239030536DD6,Input=(Expression=MaterialExpressionConstant'WhiskeyMat:MaterialExpressionConstant_14',InputName="Power"))
+      FunctionInputs(4)=(ExpressionInputId=5DF8894F4FF0173B79E6B2BE8CD4036A,Input=(OutputIndex=-1,InputName="Use Cheap contrast"))
+      FunctionInputs(5)=(ExpressionInputId=6B3E1E094AAE4B459EE37DB82522FEE1,Input=(OutputIndex=-1,InputName="Cheap contrast dark"))
+      FunctionInputs(6)=(ExpressionInputId=4FF6CF8944CC3B0DFF9720957A7239E7,Input=(OutputIndex=-1,InputName="Cheap contrast bright"))
+      FunctionOutputs(0)=(ExpressionOutputId=4791466245EBCCB78FCD1F8826A758E7,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1104
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=4DBC2FCC4A3A09CC017623A48185ABA1
+      Material=Material'WhiskeyMat'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant4Vector'MaterialExpressionConstant4Vector_0')
+   Metallic=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_3')
+   Specular=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_5')
+   Roughness=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_4')
+   Opacity=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_1')
+   BlendMode=BLEND_Translucent
+   Refraction=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0')
+   bEnableSeparateTranslucency=False
+   TranslucencyLightingMode=TLM_Surface
+   bUsesDistortion=True
+   Expressions(0)=MaterialExpressionConstant4Vector'MaterialExpressionConstant4Vector_0'
+   Expressions(1)=MaterialExpressionConstant'MaterialExpressionConstant_3'
+   Expressions(2)=MaterialExpressionConstant'MaterialExpressionConstant_4'
+   Expressions(3)=MaterialExpressionConstant'MaterialExpressionConstant_5'
+   Expressions(4)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   Expressions(5)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_1'
+   Expressions(6)=MaterialExpressionConstant'MaterialExpressionConstant_12'
+   Expressions(7)=MaterialExpressionConstant'MaterialExpressionConstant_9'
+   Expressions(8)=MaterialExpressionConstant'MaterialExpressionConstant_10'
+   Expressions(9)=MaterialExpressionConstant'MaterialExpressionConstant_13'
+   Expressions(10)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_1'
+   Expressions(11)=MaterialExpressionConstant'MaterialExpressionConstant_14'
+   MaterialFunctionInfos(0)=(StateId=7C69D87E4F4BDBC96297699E35417F6D,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Fresnel.Fresnel')
+   bCanMaskedBeAssumedOpaque=True
+   StateId=BE6A46964A36288B069481B468C43379
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=D6B0FD554E108888A9153DAC5475743A
+End Object

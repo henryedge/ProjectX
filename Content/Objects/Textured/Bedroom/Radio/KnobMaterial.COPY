@@ -1,0 +1,33 @@
+Begin Object Class=Material Name="KnobMaterial"
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=MaterialExpressionConstant4Vector Name="MaterialExpressionConstant4Vector_1"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=108.584412
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=F9251F51474BCA7187825BA326273BA1
+      Material=Material'KnobMaterial'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionConstant4Vector_1"
+      Constant=(R=0.285000,G=0.209963,B=0.108714,A=0.000000)
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=7A12E2CD462122C6F351388F08DBC28E
+      Material=Material'KnobMaterial'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant4Vector'MaterialExpressionConstant4Vector_1')
+   Metallic=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_2')
+   Expressions(0)=MaterialExpressionConstant4Vector'MaterialExpressionConstant4Vector_1'
+   Expressions(1)=MaterialExpressionConstant'MaterialExpressionConstant_2'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=6448947142889C3B969498AC57C8F376
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_4'
+   LightingGuid=5BFCFB6E4FCF3A1F527B7EB5A698E46F
+End Object
